@@ -46,7 +46,7 @@ class App6 extends Component {
     // }
 
 
-    render(){
+    render() {
         return this.state.isLoggedIn && <h1>Welcome chinmay !</h1>
     }
 
