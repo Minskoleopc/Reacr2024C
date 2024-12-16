@@ -34,7 +34,7 @@ function App8(){
         }
     ]
 
-    let persons = Persons.map((person)=><Person obj={person}/>)
+    let persons = Persons.map((person,index)=><Person obj={person} id={index} name="nm"/>)
     return <div>{persons}</div>
 
 

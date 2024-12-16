@@ -1,6 +1,6 @@
 import React from "react";
 
-function Person({obj}){
+function Person({obj,id,name}){
     console.log(obj)
     return(
         <div>

@@ -14,7 +14,7 @@ function App5(){
 
     // element-varaible approach
 
-    //let message ;
+    // let message ;
     // if(isLoggedIn){
     //     message = <h1>Welcome chinmay !</h1>
     // }
@@ -30,10 +30,10 @@ function App5(){
     //     <div>
     //         {isLoggedIn ?<h1>Welcome chinmay !</h1>:<h1>Welcome Guest !</h1>}
     //     </div>
-    //  )
+    //      )
 
     // short circuit operator approach
-     return isLoggedIn && <h1>Welcome chinmay !</h1>
+     //return isLoggedIn && <h1>Welcome chinmay !</h1>
 
 
 }

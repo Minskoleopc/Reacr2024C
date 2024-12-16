@@ -6,7 +6,7 @@ function App4() {
 
     // program 1
     // simple html jsx
-    // return <h1>Hello, world</h1>
+    //return <h1>Hello, world</h1>
 
 
     // program 2
@@ -45,22 +45,24 @@ function App4() {
     // }
 
     // program 5
+    // condition ? statementOne:statementTwo
+    // ternary operator 
 
-    // return (
-    //     <div>
-    //         {isLoggedIn ?
-    //             <h1>Welcome back again !</h1> :
-    //             <h1>Welcome new place !</h1>
-    //         }
-    //     </div>
-    // )
-
-    // program 6
     return (
         <div>
-            {isLoggedIn &&  <h1>Welcome to new place..</h1>}
+            {isLoggedIn ?
+                <h1>Welcome back again !</h1> :
+                <h1>Welcome new place !</h1>
+            }
         </div>
     )
+
+    // program 6
+    // return (
+    //     <div>
+    //         {isLoggedIn &&  <h1>Welcome to new place..</h1>}
+    //     </div>
+    // )
 
 
 
