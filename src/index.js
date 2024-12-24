@@ -18,6 +18,7 @@ import App15 from './App15';
 import Counter from './Counter';
 import DateCounter from './DateCounter';
 import App16 from './App16';
+import App18 from './App18';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -39,7 +40,8 @@ root.render(
    {/* <App15></App15> */}
    {/* <Counter></Counter> */}
    {/* <DateCounter></DateCounter> */}
-   <App16></App16>
+   {/* <App16></App16> */}
+   <App18></App18>
 
   </React.StrictMode>
 );
