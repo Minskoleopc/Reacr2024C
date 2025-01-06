@@ -22,6 +22,8 @@ import App18 from './App18';
 import App20 from './App20';
 import App19 from './App19';
 import App21 from './App21';
+import Parent from './Parent';
+import ParentComponent from './ParentComponent';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -47,7 +49,9 @@ root.render(
    {/* <App18></App18> */}
    {/* <App20></App20> */}
    {/* <App19></App19> */}
-   <App21></App21>
+   {/* <App21></App21> */}
+   {/* <Parent></Parent> */}
+   <ParentComponent/>
    
   </React.StrictMode>
 );
