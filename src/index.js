@@ -26,6 +26,7 @@ import Parent from './Parent';
 import ParentComponent from './ParentComponent';
 import AppCr from './AppCr';
 import App22 from './App22';
+import CounterComponent from './CounterComponent';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -55,7 +56,7 @@ root.render(
    {/* <Parent></Parent> */}
    {/* <ParentComponent/> */}
    {/* <AppCr></AppCr> */}
-   <App22></App22>
-   
+   {/* <App22></App22> */}
+   <CounterComponent></CounterComponent>
   </React.StrictMode>
 );
